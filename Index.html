@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de ejemplo</title>
+</head>
+<body>
+  <h2>Registro rápido</h2>
 
+  <!-- Este formulario es 100% tuyo -->
+  <form action="https://formbold.com/account/dashboard" method="POST">
+
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Región:</label><br>
+    <select name="region" required>
+        <option value="">Seleccione región</option>
+        <option>Arequipa</option>
+        <option>Lima</option>
+        <option>La Libertad</option>
+    </select><br><br>
+
+    <label>Mensaje:</label><br>
+    <textarea name="mensaje" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
